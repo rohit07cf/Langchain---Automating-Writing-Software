@@ -132,7 +132,7 @@ Only return text if some functions are not implemented.
 The new classes and functions needed:
 """
 
-llm = ChatOpenAI(model_name='gpt-3.5-turbo-16k',openai_api_key='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')
+llm = ChatOpenAI(model_name='gpt-3.5-turbo-16k',openai_api_key='')
 
 new_classes_chain = LLMChain.from_string(
     llm=llm,
