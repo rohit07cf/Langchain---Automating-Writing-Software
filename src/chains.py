@@ -2,7 +2,7 @@ from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 
 
-llm = ChatOpenAI(model_name='gpt-3.5-turbo-16k',openai_api_key='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')
+llm = ChatOpenAI(model_name='gpt-3.5-turbo-16k',openai_api_key='')
 
 prompt = """
 System: You are a Product Manager, and your job is to design software. 
